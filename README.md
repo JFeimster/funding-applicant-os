@@ -1,37 +1,57 @@
-# funding-applicant-ops
+# Funding Applicant OS — Web Interface
 
-n8n workflows and documentation for parsing Gmail applicant emails, creating/updating HubSpot deals, generating follow-up tasks, and systematizing funding applicant operations for Moonshine Capital.
+This folder contains the static product-facing interface for **Funding Applicant OS by Moonshine Capital**.
 
----
+The visual layer is based on the Operator Capital / neo-brutalist fintech direction, but the content and UI metaphors are grounded in the actual `funding-applicant-ops` repository: Gmail intake, n8n orchestration, HubSpot CRM writing, dedupe, stage mapping, and follow-up task sequencing.
 
-## Overview
+## Files
+- `index.html`
+- `styles.css`
+- `script.js`
 
-This repo contains the core workflow assets for a lightweight **Gmail → HubSpot applicant operations system**.
+## Product Positioning
+**Funding Applicant OS** is an applicant-operations layer designed to turn inbound funding signals into structured CRM action.
 
-The system is designed to:
+Current operating core:
+- Gmail applicant parser
+- normalized applicant payload
+- HubSpot contact lookup
+- deal dedupe
+- deal create / update
+- status + stage mapping
+- follow-up task generation
+- human exception handling
+- operator documentation and troubleshooting
 
-- monitor Gmail for applicant/status emails
-- parse applicant details from inbound messages
-- create or update HubSpot deal records
-- associate deals with matching contacts
-- create follow-up tasks automatically
-- reduce duplicate records
-- standardize applicant follow-up operations
+## Frontend Sections
+1. Hero / product identity
+2. Applicant Ops Snapshot
+3. System Modules
+4. Applicant Pipeline
+5. Workflow Architecture
+6. Follow-Up Engine
+7. Human Operator Layer
+8. Built Now / Next Layers
+9. Closing CTA
 
-This repo is especially useful for handling funding applicants routed through partners such as **Giggle Finance** and **BankBreezy**, while keeping Moonshine Capital as the human support layer.
+## Current Status
+This is a static visual interface only. The existing automation backend remains in the repository under:
+- `workflows/gmail-parser-funding-applicants.json`
+- `workflows/hubspot-funding-applicant-workflow.json`
 
----
+The static site does not currently submit applicant data or modify CRM records.
 
-## Repo Structure
+## Recommended Deployment Path
+1. Review and approve the static interface.
+2. Add these files to the repo.
+3. Deploy through Vercel.
+4. Connect real actions only after visual approval.
 
-```text
-funding-applicant-ops/
-├── workflows/
-│   ├── hubspot-funding-applicant-workflow.json
-│   └── gmail-parser-funding-applicants.json
-├── docs/
-│   ├── field-mapping.md
-│   └── task-sequence.md
-├── assets/
-│   └── sample-webhook-payloads.json
-└── README.md
+## Next Integration Layers
+- Wix Applicant Portal
+- Multi-Agent n8n Router
+- Notion Operator Dashboard
+
+## Brand Lockup
+**Funding Applicant OS**  
+by **Moonshine Capital**
