@@ -55,3 +55,22 @@ The static site does not currently submit applicant data or modify CRM records.
 ## Brand Lockup
 **Funding Applicant OS**  
 by **Moonshine Capital**
+
+
+## Runtime note — 2026-09-24
+
+The n8n workflow JSON files in this repository are reference implementations only and are not required for the current inbound-email path.
+
+Current preferred inbound flow:
+
+```text
+forwarded email
+  -> Cloudflare Email Routing / Email Worker
+  -> Partner Command Center POST /api/intake-message
+  -> applicant classification
+  -> POST /api/applicant-email-ingest
+  -> HubSpot contact/deal sync when configured
+  -> optional Google Sheets sync
+```
+
+The Partner Command Center runtime owns the current live email-intake endpoint so the system does not depend on n8n. This repository remains the applicant-domain/reference layer unless a future dedicated applicant runtime is intentionally activated.
