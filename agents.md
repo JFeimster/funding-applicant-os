@@ -1,3 +1,5 @@
+> **CURRENT LIVE ROUTE:** Operator-forwards → Cloudflare Email Routing/Worker → Partner Command Center (Vercel, `/api/intake-message` → `/api/applicant-email-ingest`) → HubSpot / Notion / Google Sheets. The Gmail Parser and HubSpot n8n workflow agents documented below are **unactivated reference implementations**, not deployed workers. See [docs/current-runtime.md](docs/current-runtime.md).
+
 # Agents
 
 This file documents the core operator-facing agents and workflow roles inside `funding-applicant-ops`.

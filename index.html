@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Funding Applicant OS — Moonshine Capital</title>
-  <meta name="description" content="Funding Applicant OS turns applicant emails into structured CRM records, routed deals, next steps, and follow-up tasks for Moonshine Capital." />
+  <meta name="description" content="Funding Applicant OS by Moonshine Capital. Operator-forwarded email intake via Cloudflare and Vercel, with applicant records routed to HubSpot, Notion, and Google Sheets." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
@@ -18,7 +18,7 @@
           <span class="brand-main">FUNDING APPLICANT OS</span>
           <span class="brand-sub">BY MOONSHINE CAPITAL</span>
         </a>
-        <div class="topbar-meta">INTAKE · ROUTING · CRM · FOLLOW-UP</div>
+        <div class="topbar-meta">EMAIL INTAKE · ROUTING · CRM · RECONCILIATION</div>
         <a class="top-cta" href="#workflow">See The Workflow</a>
       </div>
     </header>
@@ -30,69 +30,67 @@
             <p class="eyebrow">MOONSHINE CAPITAL / FUNDING OPERATIONS</p>
             <h1>APPLICANT<br>CHAOS IN.<br><span>OPERATOR CLARITY OUT.</span></h1>
             <p class="hero-text">
-              Funding Applicant OS turns incoming applicant emails into structured CRM records, routed deals, next steps, and follow-up tasks — so promising files stop dying somewhere between Gmail and “I thought somebody handled that.”
+              Forward an applicant notification to Moonshine’s private intake address. Cloudflare and Vercel classify the message, resolve the applicant, and sync matching records across HubSpot, Notion, and Google Sheets. You handle the exceptions — not the copy-and-paste marathon.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#workflow">See How It Works</a>
               <a class="button button-secondary" href="#stack">View The Operator Stack</a>
             </div>
             <div class="hero-proof-grid">
-              <article class="proof-card"><span class="proof-label">INTAKE</span><strong>GMAIL → STRUCTURED DATA</strong></article>
-              <article class="proof-card"><span class="proof-label">CRM</span><strong>DEDUPE → DEAL → TASKS</strong></article>
-              <article class="proof-card"><span class="proof-label">HUMAN LAYER</span><strong>EXCEPTIONS, NOT BUSYWORK</strong></article>
+              <article class="proof-card"><span class="proof-label">ENTRY</span><strong>FORWARDED EMAIL → CLOUDFLARE</strong></article>
+              <article class="proof-card"><span class="proof-label">ROUTING</span><strong>VERCEL → CRM + LEDGER</strong></article>
+              <article class="proof-card"><span class="proof-label">CONTROL</span><strong>REVIEW FAILURES · PREVENT DUPES</strong></article>
             </div>
           </div>
 
           <aside class="snapshot-card reveal delay-1">
             <div class="snapshot-top">
-              <p class="snapshot-label">Applicant Ops Snapshot</p>
+              <p class="snapshot-label">ILLUSTRATIVE INTAKE / NOT LIVE DATA</p>
               <div class="snapshot-kicker">01</div>
-              <div class="snapshot-value">FILE IN MOTION</div>
-              <p class="snapshot-sub">ROUTE · GIGGLE FINANCE</p>
+              <div class="snapshot-value">INTAKE SIGNAL</div>
+              <p class="snapshot-sub">SAMPLE FUNDING NOTIFICATION</p>
             </div>
             <div class="snapshot-body">
-              <div class="snapshot-row" data-status-row><span>Applicant Captured</span><strong>READY</strong><span class="status-dot"></span></div>
-              <div class="snapshot-row" data-status-row><span>CRM Deal</span><strong>SYNCED</strong><span class="status-dot"></span></div>
-              <div class="snapshot-row" data-status-row><span>Next Action</span><strong>QUEUED</strong><span class="status-dot"></span></div>
-              <div class="snapshot-row" data-status-row><span>Follow-Up</span><strong>+2 DAYS</strong><span class="status-dot"></span></div>
-              <div class="snapshot-row" data-status-row><span>Human Review</span><strong>AVAILABLE</strong><span class="status-dot"></span></div>
+              <div class="snapshot-row" data-status-row><span>Forwarded Message</span><strong>RECEIVED*</strong><span class="status-dot"></span></div>
+              <div class="snapshot-row" data-status-row><span>Applicant Match</span><strong>RESOLVED*</strong><span class="status-dot"></span></div>
+              <div class="snapshot-row" data-status-row><span>HubSpot</span><strong>UPSERT*</strong><span class="status-dot"></span></div>
+              <div class="snapshot-row" data-status-row><span>Notion + Sheets</span><strong>SYNC*</strong><span class="status-dot"></span></div>
+              <div class="snapshot-row" data-status-row><span>Failure / Ambiguity</span><strong>REVIEW*</strong><span class="status-dot"></span></div>
+            <p class="snapshot-footnote">* Demonstration states, not a live status feed. Each destination is checked independently.</p>
             </div>
           </aside>
         </div>
       </section>
 
       <div class="ticker-wrap">
-        <div class="ticker-track">
-          <span>INBOX</span><span>PARSED</span><span>ROUTED</span><span>CRM</span><span>FOLLOW-UP</span><span>HUMAN REVIEW</span>
-          <span>INBOX</span><span>PARSED</span><span>ROUTED</span><span>CRM</span><span>FOLLOW-UP</span><span>HUMAN REVIEW</span>
-        </div>
+        <div class="ticker-track"><span>FORWARD</span><span>CLOUDFLARE</span><span>VERCEL</span><span>CLASSIFY</span><span>HUBSPOT</span><span>NOTION</span><span>GOOGLE SHEETS</span><span>REVIEW</span><span>FORWARD</span><span>CLOUDFLARE</span><span>VERCEL</span><span>CLASSIFY</span><span>HUBSPOT</span><span>NOTION</span><span>GOOGLE SHEETS</span><span>REVIEW</span></div>
       </div>
 
       <section class="section" id="stack">
         <div class="container">
           <p class="section-index">01 / SYSTEM MODULES</p>
           <div class="section-head">
-            <h2>ONE APPLICANT. MULTIPLE SYSTEMS. ONE OPERATING LAYER.</h2>
-            <p>The machine handles the repeatable work. The operator handles judgment, edge cases, and the stuff that still requires a pulse.</p>
+            <h2>ONE FORWARDED EMAIL. MULTIPLE DESTINATIONS. ONE CONTROL LAYER.</h2>
+            <p>Cloudflare receives the message. Vercel parses and reconciles the identity. The CRM systems get the right record — while ambiguous or failed writes stay visible for review.</p>
           </div>
 
           <div class="module-grid">
-            <article class="module-card module-card-featured reveal"><span class="module-tag">01 / INTAKE</span><div class="module-mark">@</div><h3>GMAIL PARSER</h3><p>Reads applicant and status emails, then turns inbox sludge into structured applicant data.</p></article>
-            <article class="module-card blue reveal delay-1"><span class="module-tag">02 / NORMALIZE</span><h3>APPLICANT INTELLIGENCE</h3><p>Extracts identity, route, revenue, bank type, source, status, thread IDs, and operational context.</p></article>
-            <article class="module-card reveal delay-2"><span class="module-tag">03 / CRM</span><h3>HUBSPOT WRITER</h3><p>Finds the contact. Finds the deal. Updates what exists instead of spawning CRM clones like gremlins.</p></article>
-            <article class="module-card dark reveal"><span class="module-tag">04 / ROUTE</span><h3>STATUS + NEXT-STEP ENGINE</h3><p>Translates applicant state into priority, blocker, route, deal stage, and operator action.</p></article>
-            <article class="module-card lime reveal delay-1"><span class="module-tag">05 / FOLLOW-UP</span><h3>TASK SEQUENCER</h3><p>Creates the follow-up cadence automatically and associates tasks to the right applicant record.</p></article>
-            <article class="module-card reveal delay-2"><span class="module-tag">06 / HUMAN LAYER</span><h3>EXCEPTION REVIEW</h3><p>Automation handles repeatable work. Humans handle ambiguity, judgment calls, weird replies, and money-adjacent chaos.</p></article>
+            <article class="module-card module-card-featured reveal"><span class="module-tag">01 / EMAIL</span><div class="module-mark">@</div><h3>CLOUDFLARE INTAKE</h3><p>Operator-forwarded email is routed through Cloudflare Email Routing and the Email Worker.</p></article>
+            <article class="module-card blue reveal delay-1"><span class="module-tag">02 / ROUTER</span><h3>VERCEL MESSAGE ROUTER</h3><p>Partner Command Center classifies each message as applicant, partner, or unknown.</p></article>
+            <article class="module-card reveal delay-2"><span class="module-tag">03 / PARSE</span><h3>APPLICANT IDENTITY</h3><p>Parse high-confidence funding facts, resolve identity, and flag conflicts for manual review.</p></article>
+            <article class="module-card dark reveal"><span class="module-tag">04 / CRM</span><h3>HUBSPOT UPSERT</h3><p>Find or create the contact and funding deal with case-aware matching and provenance.</p></article>
+            <article class="module-card lime reveal delay-1"><span class="module-tag">05 / INTELLIGENCE</span><h3>NOTION FUNDING LEADS</h3><p>Upsert the matched lead into Notion without producing a new page for every notice.</p></article>
+            <article class="module-card reveal delay-2"><span class="module-tag">06 / LEDGER</span><h3>GOOGLE SHEETS SYNC</h3><p>Reconcile to Master Applicants with source IDs and destination results for audit and recovery.</p></article>
           </div>
         </div>
       </section>
 
       <section class="section" id="pipeline">
         <div class="container">
-          <p class="section-index">02 / APPLICANT PIPELINE</p>
+          <p class="section-index">02 / OPERATING LIFECYCLE · TARGET VIEW</p>
           <div class="section-head">
             <h2>STOP WONDERING WHERE THE FILE WENT.</h2>
-            <p>The point of the pipeline is not to make prettier boxes. It is to make the next action obvious before opportunity goes stale.</p>
+            <p>A useful operating model for reviewing funding activity. These visual labels are illustrative — they are not a live view of HubSpot deal stages.</p>
           </div>
 
           <div class="pipeline-rail">
@@ -111,13 +109,13 @@
         <div class="container">
           <p class="section-index">03 / HOW THE MACHINE WORKS</p>
           <div class="section-head">
-            <h2>EMAIL ARRIVES. THE MACHINE TAKES IT FROM THERE.</h2>
-            <p>Three moves: capture the signal, orchestrate the record, move the file. The human stays available for the messy part.</p>
+            <h2>FORWARD THE EMAIL. MOVE THE RECORD. WATCH THE EXCEPTIONS.</h2>
+            <p>The working Cloudflare → Vercel path does not require Gmail polling or n8n. Each system reports its own processing result.</p>
           </div>
           <div class="process-grid">
-            <article class="process-step reveal"><span class="step-no">STEP 01 / CAPTURE</span><h3>READ THE SIGNAL</h3><p>Gmail detects a qualifying funding event and parses the applicant, route, status, source, and useful operational context.</p></article>
-            <article class="process-step lime reveal delay-1"><span class="step-no">STEP 02 / ORCHESTRATE</span><h3>WRITE THE RECORD</h3><p>n8n normalizes the payload, checks HubSpot for existing records, applies dedupe logic, and updates or creates the deal.</p></article>
-            <article class="process-step reveal delay-2"><span class="step-no">STEP 03 / MOVE</span><h3>QUEUE THE NEXT ACTION</h3><p>The system assigns priority, next step, and follow-up tasks while surfacing exceptions that need a human.</p></article>
+            <article class="process-step reveal"><span class="step-no">STEP 01 / FORWARD</span><h3>SEND THE SIGNAL</h3><p>An operator forwards an applicant notification to the private intake mailbox. Cloudflare accepts it and delivers the message to the Email Worker.</p></article>
+            <article class="process-step lime reveal delay-1"><span class="step-no">STEP 02 / ROUTE</span><h3>CLASSIFY + MATCH</h3><p>Vercel's intake router classifies the message, parses applicant details, and resolves existing identities before writing.</p></article>
+            <article class="process-step reveal delay-2"><span class="step-no">STEP 03 / RECONCILE</span><h3>SYNC + VERIFY</h3><p>HubSpot, Notion, and Google Sheets receive upserts. Partial failures and ambiguous matches are surfaced for operator review.</p></article>
           </div>
         </div>
       </section>
@@ -125,9 +123,9 @@
       <section class="section" id="followup">
         <div class="container followup-grid">
           <div class="followup-copy reveal">
-            <p class="section-index">04 / FOLLOW-UP ENGINE</p>
+            <p class="section-index">04 / DOCUMENTED FOLLOW-UP PLAYBOOK</p>
             <h2>GOOD FILES SHOULD NOT DIE OF NEGLECT.</h2>
-            <p>The follow-up engine gives operators a consistent cadence without turning applicants into automated-email hostages.</p>
+            <p>The +2 / +4 / +7 / +12-day sequence is documented for operators and future automation. Intake synchronization alone does not verify replies or schedule this entire sequence.</p>
           </div>
           <div class="timeline-card reveal delay-1">
             <div class="timeline-row"><span class="timeline-day">DAY 0</span><strong>FIRST REPLY</strong></div>
@@ -135,7 +133,7 @@
             <div class="timeline-row"><span class="timeline-day">DAY +4</span><strong>ALT OPTIONS NUDGE</strong></div>
             <div class="timeline-row"><span class="timeline-day">DAY +7</span><strong>REMOVE FRICTION</strong></div>
             <div class="timeline-row"><span class="timeline-day">DAY +12</span><strong>CLOSE THE LOOP</strong></div>
-            <div class="timeline-status"><span class="status-dot"></span><strong>STATUS: AUTOMATED TASK SEQUENCE</strong></div>
+            <div class="timeline-status"><span class="status-dot"></span><strong>STATUS: DOCUMENTED CADENCE · AUTOMATION PLANNED</strong></div>
           </div>
         </div>
       </section>
@@ -144,14 +142,14 @@
         <div class="container operator-grid">
           <div class="operator-quote reveal">
             <p class="section-index light">05 / HUMAN OPERATOR</p>
-            <blockquote>“DID ANYBODY FOLLOW UP WITH THAT APPLICANT?”<br><span>THE OS KNOWS.</span></blockquote>
+            <blockquote>“DID THAT MESSAGE REACH EVERY SYSTEM?”<br><span>CHECK THE RECEIPTS.</span></blockquote>
           </div>
           <div class="operator-panel reveal delay-1">
             <p class="section-index">OPERATOR CONTROL LAYER</p>
             <div class="control-row"><strong>Applicant State</strong><span>Know where the file actually stands.</span></div>
             <div class="control-row"><strong>Next Action</strong><span>Know exactly what should happen next.</span></div>
-            <div class="control-row"><strong>Follow-Up Queue</strong><span>Stop relying on memory and inbox archaeology.</span></div>
-            <div class="control-row"><strong>Exception Review</strong><span>Automation escalates ambiguity instead of inventing confidence.</span></div>
+            <div class="control-row"><strong>Destination Results</strong><span>See which systems accepted a record and which need reconciliation.</span></div>
+            <div class="control-row"><strong>Exception Review</strong><span>Investigate ambiguous applicants, partial syncs, and possible delivery gaps.</span></div>
           </div>
         </div>
       </section>
@@ -160,9 +158,9 @@
         <div class="container">
           <p class="section-index">06 / BUILT NOW → NEXT LAYERS</p>
           <div class="roadmap-grid">
-            <article class="roadmap-card built reveal"><span class="roadmap-label">BUILT NOW</span><h3>THE OPERATING CORE</h3><ul><li>Gmail applicant parser</li><li>Normalized applicant payload</li><li>HubSpot contact lookup</li><li>Deal dedupe</li><li>Deal create / update</li><li>Status + stage mapping</li><li>Follow-up task generation</li><li>Operator docs + troubleshooting</li></ul></article>
+            <article class="roadmap-card built reveal"><span class="roadmap-label">IMPLEMENTED IN PARTNER COMMAND CENTER</span><h3>THE INTAKE CORE</h3><ul><li>Cloudflare Email Worker</li><li>Vercel intake classifier</li><li>Applicant field parsing</li><li>HubSpot contact + deal upsert</li><li>Notion Funding Leads upsert</li><li>Google Sheets applicant ledger</li><li>Per-destination sync results</li><li>Reconciliation and review tooling</li></ul></article>
             <article class="roadmap-card reveal delay-1"><span class="roadmap-label">NEXT / PORTAL</span><h3>WIX APPLICANT PORTAL</h3><p>Applicant-facing status, resources, updates, and re-engagement.</p></article>
-            <article class="roadmap-card blue reveal delay-2"><span class="roadmap-label">NEXT / ROUTER</span><h3>MULTI-AGENT N8N</h3><p>One intake layer feeding vertical-specific flows and shared services.</p></article>
+            <article class="roadmap-card blue reveal delay-2"><span class="roadmap-label">OPTIONAL / FUTURE</span><h3>N8N + SPECIALIZED AGENTS</h3><p>Optional orchestration layer; the current email-intake runtime has no n8n dependency.</p></article>
             <article class="roadmap-card lime reveal"><span class="roadmap-label">NEXT / COMMAND CENTER</span><h3>NOTION DASHBOARD</h3><p>Applicants, blockers, follow-ups, wins, lost files, and operator visibility.</p></article>
           </div>
         </div>
@@ -172,8 +170,8 @@
         <div class="container closing-grid">
           <div class="closing-copy reveal">
             <p class="section-index">07 / CURRENT INTERFACE</p>
-            <h2>SEE THE MACHINE BEFORE WE WIRE THE BUTTONS.</h2>
-            <p>This static interface is the visual operating layer for the applicant workflows already being built underneath it.</p>
+            <h2>REAL INTAKE. CLEARER OPERATIONS. NO SECOND BACKEND.</h2>
+            <p>This is a static product concept, not an applicant login, live CRM dashboard, or new email intake endpoint. The live routing remains in Partner Command Center.</p>
           </div>
           <div class="closing-actions reveal delay-1">
             <a class="button button-primary wide" href="#workflow">View Workflow Architecture</a>

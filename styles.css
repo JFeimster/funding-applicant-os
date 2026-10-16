@@ -18,3 +18,11 @@
 @media(max-width:1180px){.topbar-inner{grid-template-columns:1fr auto}.topbar-meta{display:none}.hero-grid,.section-head,.followup-grid,.operator-grid,.closing-grid,.footer-grid{grid-template-columns:1fr}.module-grid,.roadmap-grid,.hero-proof-grid{grid-template-columns:1fr 1fr}.module-card-featured,.roadmap-card.built{grid-row:auto}.pipeline-rail{grid-template-columns:1fr}.pipeline-arrow{transform:rotate(90deg);justify-self:center}.footer-links{justify-items:start}}
 @media(max-width:760px){.container{width:min(var(--max),calc(100% - 24px))}.topbar-inner{grid-template-columns:1fr;padding:.8rem 0}.top-cta,.button{width:100%}.brand-main{font-size:1.35rem}.hero{padding-top:2.5rem}.hero-copy h1{font-size:clamp(3.1rem,15vw,5rem)}.hero-proof-grid,.module-grid,.process-grid,.roadmap-grid{grid-template-columns:1fr}.hero-actions{display:grid}.snapshot-row{grid-template-columns:1fr auto}.snapshot-row .status-dot{display:none}.section{padding:4.75rem 0}.hero-text,.section-head p,.module-card p,.process-step p,.followup-copy p,.control-row span,.roadmap-card p,.closing-copy p{font-size:1.04rem}.timeline-row{grid-template-columns:90px 1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* Live-runtime copy and clearly illustrative sample state */
+.snapshot-footnote{margin:0;padding:.8rem 0;font:700 .68rem/1.5 "Space Mono",monospace;color:#514f4b}
+.snapshot-row strong{font-size:.74rem;text-transform:uppercase}
+.module-card h3{overflow-wrap:anywhere}
+.pipeline-stage{overflow-wrap:anywhere}
+@media(max-width:1180px){.hero-copy h1{font-size:clamp(3.5rem,8vw,7rem)}}
+@media(max-width:760px){.hero-copy h1{font-size:clamp(2.85rem,13.8vw,4.9rem)}}

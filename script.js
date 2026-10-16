@@ -2,7 +2,7 @@ const revealObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{
 document.querySelectorAll(".reveal").forEach(item=>revealObserver.observe(item));
 
 const statusRows=[...document.querySelectorAll("[data-status-row]")];
-if(statusRows.length){let current=0;const cycle=()=>{statusRows.forEach((row,i)=>row.classList.toggle("is-active",i===current));current=(current+1)%statusRows.length};cycle();setInterval(cycle,1500)}
+if(statusRows.length){let current=0;const cycle=()=>{statusRows.forEach((row,i)=>row.classList.toggle("is-active",i===current));current=(current+1)%statusRows.length};cycle();if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(cycle,1500)}
 
 const pipelineStages=[...document.querySelectorAll(".pipeline-stage")];
 const rail=document.querySelector(".pipeline-rail");

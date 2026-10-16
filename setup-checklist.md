@@ -1,3 +1,5 @@
+> **CURRENT SYSTEM (October 2026):** This file was originally written as an n8n import walkthrough. n8n is NOT the active intake runtime. Start with [docs/current-runtime.md](docs/current-runtime.md): manually forwarded email → Cloudflare Email Worker → Partner Command Center / Vercel → HubSpot + Notion + Google Sheets. Use the instructions below only when intentionally piloting n8n as an optional future integration. Do not activate these workflows in parallel with the current forwarded-email intake without deduplication and replay safeguards.
+
 # Setup Checklist
 
 Use this checklist to stand up or rebuild the `funding-applicant-ops` system without guessing.

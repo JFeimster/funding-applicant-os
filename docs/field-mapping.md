@@ -1,3 +1,5 @@
+> **REFERENCE / NOT CURRENT LIVE FLOW:** This document describes the original n8n workflow mapping. Current production intake uses Cloudflare + Vercel in Partner Command Center. See [current-runtime.md](current-runtime.md) and the canonical backend. Do not treat the mappings below as guaranteed to match its live payload.
+
 # Field Mapping
 
 This document defines the field mapping between:

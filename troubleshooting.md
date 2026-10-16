@@ -1,3 +1,5 @@
+> **LIVE INTAKE TRIAGE:** For the current manual-forwarding path, consult [docs/current-runtime.md](docs/current-runtime.md) and the Partner Command Center [October 11 reconciliation report](https://github.com/JFeimster/partner-command-center/blob/main/docs/email-intake-reconciliation-2026-10-11.md). Check Cloudflare receipt, Vercel `[intake-message]` / `[applicant-email-ingest]` logs, then HubSpot/Notion/Sheets destination status. Do not replay based only on Gmail bounce notices. The n8n node guidance below is for reference workflows, NOT active production.
+
 # Troubleshooting
 
 Use this file to diagnose common failures in the `funding-applicant-ops` system.

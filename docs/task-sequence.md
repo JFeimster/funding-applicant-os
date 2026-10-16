@@ -1,3 +1,5 @@
+> **FOLLOW-UP STATUS:** The cadence below is a documented playbook. The active Cloudflare/Vercel email-ingest code does not schedule the complete sequence or verify whether the first reply was sent. Use human review / existing CRM tasks pending explicit automation work. See [current-runtime.md](current-runtime.md).
+
 # Task Sequence
 
 This document defines the applicant follow-up cadence used by the HubSpot funding applicant workflow.
